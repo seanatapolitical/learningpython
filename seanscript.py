@@ -15,5 +15,3 @@ ciphered_text = "Uryyb jbeyq! V'ir pvcurerq gur grkg va gur fpevcg fb gung lbh p
 print(
     ''.join([rot13cipher.get(x,x) for x in ciphered_text])
 )
-
-print('Success!')
